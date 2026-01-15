@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>101st CAB BDE S-6 Help Desk</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Author" content="101st CAB BDE HHC S-6"/>
+    <meta name="description" content="101st CAB BDE S-6 Help Desk - IT Support for the 101st Combat Aviation Brigade" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .profile {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 1.5rem;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border: 4px solid #e2e8f0;
+        }
+        .profile img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1 {
+            color: #2d3748;
+            font-size: 1.75rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+        .links {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: #f7fafc;
+            color: #2d3748;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 2px solid #e2e8f0;
+            font-size: 0.95rem;
+        }
+        .links a:hover {
+            transform: translateY(-3px);
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .links a i {
+            font-size: 1.1rem;
+        }
+        .notice {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #fff5f5;
+            border-left: 4px solid #f56565;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: #742a2a;
+            text-align: left;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 2rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="s6logo.jpeg" alt="101st CAB BDE S-6 Logo">
+        </div>
+        <h1>101st CAB BDE S-6 Help Desk</h1>
+        <div class="links">
+            <a href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:101st CAB BDE S-6 Help Desk%0AORG:101st CAB BDE S6 Help desk%0ATEL;TYPE=WORK,VOICE:(270) 412-7588%0AEMAIL:101cabsybdes6helpdesk@army.mil%0AURL:https://forms.microsoft.com/r/C76uYyk97V%0ANOTE:Hours: Monday-Friday 0930-1600%0AEND:VCARD" 
+               download="S6-HelpDesk.vcf">
+                <i class="fas fa-address-card"></i>
+                <span>Save Contact</span>
+            </a>
+            <a href="https://forms.microsoft.com/r/C76uYyk97V" target="_blank">
+                <i class="fas fa-ticket-alt"></i>
+                <span>Submit Ticket</span>
+            </a>
+            <a href="https://github.com/101st-CAB-HHC-BDE-S6/Helpdesk" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+        </div>
+        <div class="notice">
+            <strong>Security Notice:</strong> This system is for authorized use only. Do not submit classified or sensitive information.
+        </div>
+    </div>
+</body>
+</html>
